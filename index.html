@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>City</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <script src="https://use.typekit.net/bbn0olr.js"></script>
+    <script>try{Typekit.load({ async:true });}catch(e){}</script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Locations</a>
+        <a href="#">Order</a>
+        <a href="#">Login</a>
+      </div>
+      <div class="main-header">
+        <div class="main-nav">
+          <span id="open" class="open" onclick="openNav()">&#9776</span>
+        </div>
+          <img src="img/coffee.png" alt="white coffee cup">
+          <h1>You Order. We Deliver.</h1>
+          <p>Get Coffee In 3 Easy Steps</p>
+          <a href="#" class="btn-one">Order A Coffee</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function openNav(){
+        document.getElementById("open").style.display = "none";
+        document.getElementById("sidenav").style.width = "100%";
+      }
+      function closeNav(){
+        document.getElementById("sidenav").style.width = "0";
+        document.getElementById("open").style.display = "block";
+      }
+    </script>
+  </body>
+</html>

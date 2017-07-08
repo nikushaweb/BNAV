@@ -1,0 +1,92 @@
+html,body{
+  background-color: white;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+
+.main-header{
+  background: url('../img/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 768px;
+  color: white;
+}
+.main-header img{
+  margin-top: 8.25em;
+  margin-bottom: 0.5em;
+  width: 100px;
+  height: auto;
+}
+.main-header h1{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0.1em;
+  font-family: 'proxima-nova', helvetica, serif;
+}
+.main-header p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 2.25em;
+  font-family: 'proxima-nova', helvetica, serif;
+}
+.btn-one{
+  color: white;
+  background: #FF9F8C;
+  padding: 1em 2.5em;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-family: 'proxima-nova', helvetica, serif;
+}
+
+.main-nav{
+  height: 50px;
+}
+.main-header .main-nav span{
+  color: white;
+  font-size: 35px;
+  line-height: 50px;
+  margin-left: 0.25em;
+  float: left;
+  cursor: pointer;
+}
+.sidenav{
+  width: 0;
+  height: 100vh;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: red;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: block;
+  font-family: 'proxima-nova', helvetica, serif;
+}
+.sidenav a{
+  clear: left;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  padding: 1em 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.closebtn{
+  float: left;
+  margin: 1em 0 0 1em;
+}
+.sidenav a:not(:first-child):hover{
+  background: #f7941d;
+}
